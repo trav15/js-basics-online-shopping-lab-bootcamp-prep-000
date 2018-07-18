@@ -26,8 +26,13 @@ function viewCart() {
     return `In your cart, you have ${cartList.join(', and ')}.`
   } else { for (var i = 0; i < cart.length; i++) {
     cartList.push(`${cart[i].itemName} at $${cart[i].itemPrice}`)
+    if (i===cart.length - 1) {
+      threeOrMore += `, and ${cart[i].itemName} at $${cart[i].itemPrice}`
+    } else {
+      threeOrMore += `${cart[i].itemName} at $${cart[i].itemPrice}`
+    }
   }
-  return `In your cart, you have ${cartList.join(', ')}.`
+  return threeOrMore
   }
 }
 
