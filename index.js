@@ -20,7 +20,7 @@ function viewCart() {
   for (var i = 0; i < cart.length; i++) {
     cartList.push(`${itemName} at ${itemPrice}`)
   }
-  return `In your cart, you have cartList.join(', ')
+  return `In your cart, you have ${cartList.join(', ')}`
 }
 
 function total() {
