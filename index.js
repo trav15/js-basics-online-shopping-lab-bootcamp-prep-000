@@ -67,7 +67,7 @@ function placeOrder(cardNumber) {
   } else {
     var totalPrice = total(cart)
     cart = []
-    return `Your total cost is ${totalPrice}
+    return `Your total cost is ${totalPrice}, which will be 
   }
 }
 
