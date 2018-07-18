@@ -45,7 +45,7 @@ function viewCart() {
 function total() {
   var totalPrice = 0
    for (var i = 0; i < cart.length; i++) {
-     totalPrice += parseInt(cart[1].itemPrice)
+     totalPrice += parseInt(cart[1].itemPrice, 10)
    }
 }
 
