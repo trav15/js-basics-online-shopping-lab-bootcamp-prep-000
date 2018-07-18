@@ -19,7 +19,7 @@ function viewCart() {
   const cartList = []
   
   if (!cart.length) {
-    return 'Your shopping cart is empty'
+    return 'Your shopping cart is empty.'
   } else { for (var i = 0; i < cart.length; i++) {
     cartList.push(`${itemName} at ${itemPrice}`)
   }
