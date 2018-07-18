@@ -70,4 +70,4 @@ function placeOrder(cardNumber) {
 addToCart('apples')
 addToCart('oranges')
 addToCart('flour')
-console.log(removeFromCart(oranges))
+console.log(removeFromCart('oranges'))
