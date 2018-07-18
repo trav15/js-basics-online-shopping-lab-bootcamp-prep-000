@@ -21,9 +21,7 @@ function viewCart() {
   if (!cart.length) {
     return 'Your shopping cart is empty.'
   } else if (cart.length === 2) {
-    
-    for (var i = 0; i < 3; i++) {
-    cartList.push(`${cart[i].itemName} at $${cart[i].itemPrice}`)
+    cartList.push(`${cart[0].itemName} at $${cart[0].itemPrice}`)
     return `In your cart, you have ${cartList.join('and ')}.`
     }
     
