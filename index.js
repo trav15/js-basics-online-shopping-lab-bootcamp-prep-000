@@ -22,7 +22,7 @@ function viewCart() {
     return 'Your shopping cart is empty.'
   } else if (cart.length === 2) {
     
-    for (var i = 0; i < cart.length; i++) {
+    for (var i = 0; i < 2; i++) {
     cartList.push(`${cart[i].itemName} at $${cart[i].itemPrice}`)
     return `In your cart, you have ${cartList.join('and ')}.`
     }
