@@ -65,7 +65,3 @@ function placeOrder(cardNumber) {
   // write your code here
 }
 
-addToCart('apples')
-addToCart('oranges')
-addToCart('flour')
-console.log(removeFromCart('flour'))
