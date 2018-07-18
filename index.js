@@ -1,4 +1,4 @@
-var cart const testArray = [{itemName: apples, itemPrice: 20}, {itemName: oranges, itemPrice: 6}, {itemName: flour, itemPrice: 5}]
+var cart = [{itemName: apples, itemPrice: 20}, {itemName: oranges, itemPrice: 6}, {itemName: flour, itemPrice: 5}]
 
 
 function getCart() {
@@ -67,4 +67,4 @@ function placeOrder(cardNumber) {
   // write your code here
 }
 
-
+removeFromCart(apples)
