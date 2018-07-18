@@ -20,10 +20,11 @@ function viewCart() {
   
   if (!cart.length) {
     return 'Your shopping cart is empty'
-  } else {for (var i = 0; i < cart.length; i++) {
+  } else { for (var i = 0; i < cart.length; i++) {
     cartList.push(`${itemName} at ${itemPrice}`)
   }
   return `In your cart, you have ${cartList.join(', ')}.`
+  }
 }
 
 function total() {
