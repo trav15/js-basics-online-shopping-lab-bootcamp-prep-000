@@ -24,8 +24,6 @@ function viewCart() {
     cartList.push(`${cart[0].itemName} at $${cart[0].itemPrice}`)
     cartList.push(`${cart[1].itemName} at $${cart[1].itemPrice}`)
     return `In your cart, you have ${cartList.join('and ')}.`
-    }
-    
   } else { for (var i = 0; i < cart.length; i++) {
     cartList.push(`${cart[i].itemName} at $${cart[i].itemPrice}`)
     return `In your cart, you have ${cartList.join(', ')}.`
