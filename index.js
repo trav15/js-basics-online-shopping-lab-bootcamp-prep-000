@@ -17,7 +17,7 @@ function addToCart(item) {
 
 function viewCart() {
   const cartList = []
-  
+  var threeOrMore = 'In your cart, you have'
   if (!cart.length) {
     return 'Your shopping cart is empty.'
   } else if (cart.length === 2) {
